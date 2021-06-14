@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Set.h
+iostream
+-
+
+/cygdrive/c/MyPrograms/Set/main.cpp
+iostream
+-
+Set.h
+/cygdrive/c/MyPrograms/Set/Set.h
+vector
+-
+
